@@ -41,14 +41,16 @@ body {
 
  .header-desktop {
     font-family: 'customBold', sans-serif;
-    height: 20vh;
-    font-size: 0.9vh;
+    height: 20vh;    
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     padding-top: 5vh;
  }
 
+.header-desktop>h1 {
+    font-size: 6vh;
+}
  nav {
     display : flex;
     flex-direction: row;
