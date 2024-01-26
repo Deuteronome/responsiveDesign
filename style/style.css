@@ -1,0 +1,80 @@
+/*Réglages généraux de la page*/
+
+@font-face {
+    font-family: 'custom';
+    src: url('./LouisGeorgeCafe.ttf');
+}
+
+@font-face {
+    font-family: 'customBold';
+    src: url('./LouisGeorgeCafeBold.ttf');
+}
+
+@font-face {
+    font-family: 'customLight';
+    src: url('./LouisGeorgeCafeLight.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --main-back : #daf1f3;
+    --main-font : #272a2c;
+    --head-back : #000000;
+}
+
+body {
+    font-family: 'custom', sans-serif;
+    background-color: var(--main-back);
+    color : var(--main-font);
+}
+
+/* header + nav inclus dans le header */
+
+ header {
+    background-color: var(--head-back);
+    color: var(--main-back);
+    width : 100vw;
+    display: flex;
+ }
+
+ .header-desktop {
+    font-family: 'customBold', sans-serif;
+    height: 20vh;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5vh;
+ }
+
+ nav {
+    display : flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+
+ .nav-desktop {
+    font-family: 'custom', sans-serif;
+    width: 100vw;
+    height: 6vh;
+ }
+
+ .nav-button-desktop {
+    display : block;
+    text-align : center;
+    height: 70%;
+    width : 20%;
+    font-size: 3vh;
+    padding-top: 0.3vh;
+    background-color: var(--head-back);
+    color: var(--main-back);
+    border-radius: 5px;
+    transition: background-color 1000ms;
+    text-decoration: none;
+ }
+
+ .nav-button-desktop:hover {
+    background-color: var(--main-font);
+ }
