@@ -42,6 +42,7 @@ body {
  .header-desktop {
     font-family: 'customBold', sans-serif;
     height: 20vh;
+    font-size: 0.9vh;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
