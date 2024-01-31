@@ -19,9 +19,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    --main-back : #daf1f3;
-    --main-font : #272a2c;
-    --head-back : #000000;
+    --main-back : #d6abff;
+    --main-font : #f8f8f8;
+    --head-back : #160d19;
 }
 
 body {
@@ -81,3 +81,44 @@ body {
  .nav-button-desktop:hover {
     background-color: var(--main-font);
  }
+
+
+
+ .header-mobile {
+    font-family: 'customBold', sans-serif;
+    height: 5vh;    
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+ }
+
+.header-mobile>h1 {
+    font-size: 2vh;
+}
+
+
+ .nav-mobile {
+    font-family: 'custom', sans-serif;
+    width: 100vw;
+    height: 6vh;
+ }
+
+ .nav-button-mobile {
+    display : block;
+    text-align : center;
+    height: 70%;
+    width : 30%;
+    font-size: 2.6vh;
+    padding-top: 0.3vh;
+    background-color: var(--head-back);
+    color: var(--main-back);
+    border-radius:7px;
+    transition: background-color 1000ms;
+    text-decoration: none;
+    background-color: #160d19;
+    border: #f8f8f8 double 0.1px;
+    
+
+ }
+
