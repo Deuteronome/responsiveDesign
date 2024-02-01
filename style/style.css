@@ -19,7 +19,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    --main-back : #db94c6;
+    --main-back : #f5deb3;
     --main-font : #272a2c;
     --head-back : #000000;
 }
@@ -47,7 +47,7 @@ body {
     align-items: center;
     padding-top: 5vh;
  }
-
+ mobile 
 .header-desktop>h1 {
     font-size: 6vh;
 }
@@ -116,6 +116,23 @@ body {
     border-radius: 5px;
     
     text-decoration: none;
+ }
+
+.col-design {
+
+   background-color: white;
+   box-shadow: black 5px 5px 10px 0;
+}
+ .rouge {
+ background-color: red;
+ }
+
+ .vert {
+background-color: greenyellow;
+ }
+
+ .nav-custom {
+   background-color: rgb(157, 44, 74);
  }
 
 
