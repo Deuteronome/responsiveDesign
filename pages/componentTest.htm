@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap c'est cool</title>
+    <link rel="stylesheet" href="../style/bootstrap.css">
+    <link rel="stylesheet" href="../style/style.css">
+    <script src="../script/bootstrap.bundle.js" defer></script>
+    
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg  py-md-3 bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="./responsiveTest.htm">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./componentTest.htm">Projet</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#">Contact</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+      
+
+    <main class="container-fluid mt-4">
+        <section class="row justify-content-evenly">
+            <div class="col-11 col-md-4 p-3 col-design">
+                <h2 class="mb-4">Première colonne</h2>
+                <div class="row justify-content-center mb-3">
+                    <div class="col-10">
+                        <form action="#">
+                            <h3>Connexion</h3>
+                            <label for="name" class="form-label">Nom :</label>
+                            <input class="form-control" type="text" id="name">
+                            <label for="password" class="form-label">Mot de passe</label>
+                            <input type="password" name="" id="password" class="form-control">
+                            <input type="submit" value="Connexion" class="form-control mt-4">
+                        </form>
+                    </div>
+                </div>
+                
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rutrum risus neque, porta eleifend odio vehicula sed. Proin accumsan lorem ex, sed porttitor libero lacinia a. In vestibulum nec dolor mattis auctor. Duis eu est sit amet risus ornare tempus. Maecenas mattis ligula vel dolor congue efficitur a eu mauris. Vestibulum quis ligula non orci congue cursus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed scelerisque vitae ligula eu suscipit.</p>
+
+                <p>Morbi molestie erat a diam efficitur molestie. Suspendisse libero lorem, tempus id lacinia tempus, facilisis in nulla. Donec interdum libero vel nisl blandit, tempus lobortis justo tempor. Nunc quis blandit quam. Pellentesque arcu felis, tincidunt et aliquet ac, molestie vel ligula. Praesent maximus lorem et neque porttitor, eu iaculis lorem ultrices. Suspendisse luctus quis est egestas mollis. Nullam quis tortor non leo gravida feugiat. Nam quis lectus semper nulla tristique suscipit at condimentum massa. Vestibulum et risus enim. Suspendisse sodales dui arcu, at rhoncus mauris dictum quis.</p>
+
+                <p>Nunc in blandit purus. Maecenas a ultricies quam, eu ultrices lorem. Aenean vel nulla sed massa ullamcorper feugiat. Donec quis diam eu elit faucibus volutpat. Donec elementum viverra libero, quis tempor diam. Praesent nibh risus, elementum sit amet rutrum vitae, eleifend id mauris. Vivamus eget lorem sagittis, pretium leo vitae, venenatis eros. Sed vitae ipsum ligula. Nullam fringilla tempus neque in ornare. Maecenas imperdiet lorem id arcu egestas, sit amet malesuada velit tincidunt. Ut sed varius elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Suspendisse potenti.</p>
+
+            </div>
+            <div class="col-11 col-md-7 p-3 mt-3 mt-md-0 col-design">
+                <h2 class="mb-4">Deuxième colonne</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rutrum risus neque, porta eleifend odio vehicula sed. Proin accumsan lorem ex, sed porttitor libero lacinia a. In vestibulum nec dolor mattis auctor. Duis eu est sit amet risus ornare tempus. Maecenas mattis ligula vel dolor congue efficitur a eu mauris. Vestibulum quis ligula non orci congue cursus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed scelerisque vitae ligula eu suscipit.</p>
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="2000" >
+                        <img src="../assets/enterTheCrypt.webp" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item" data-bs-interval="1000" >
+                        <img src="../assets/enterTheCrypt2.webp" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item" data-bs-interval="1000" >
+                        <img src="../assets/fightTheBoss.webp" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item" data-bs-interval="1000" >
+                        <img src="../assets/groupPn.webp" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                <p>Morbi molestie erat a diam efficitur molestie. Suspendisse libero lorem, tempus id lacinia tempus, facilisis in nulla. Donec interdum libero vel nisl blandit, tempus lobortis justo tempor. Nunc quis blandit quam. Pellentesque arcu felis, tincidunt et aliquet ac, molestie vel ligula. Praesent maximus lorem et neque porttitor, eu iaculis lorem ultrices. Suspendisse luctus quis est egestas mollis. Nullam quis tortor non leo gravida feugiat. Nam quis lectus semper nulla tristique suscipit at condimentum massa. Vestibulum et risus enim. Suspendisse sodales dui arcu, at rhoncus mauris dictum quis.</p>
+
+                <p>Nunc in blandit purus. Maecenas a ultricies quam, eu ultrices lorem. Aenean vel nulla sed massa ullamcorper feugiat. Donec quis diam eu elit faucibus volutpat. Donec elementum viverra libero, quis tempor diam. Praesent nibh risus, elementum sit amet rutrum vitae, eleifend id mauris. Vivamus eget lorem sagittis, pretium leo vitae, venenatis eros. Sed vitae ipsum ligula. Nullam fringilla tempus neque in ornare. Maecenas imperdiet lorem id arcu egestas, sit amet malesuada velit tincidunt. Ut sed varius elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Suspendisse potenti.</p>
+
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>

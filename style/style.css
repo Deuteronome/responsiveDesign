@@ -19,7 +19,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    --main-back : #daf1f3;
+    --main-back : #f5deb3;
     --main-font : #272a2c;
     --head-back : #000000;
 }
@@ -47,25 +47,24 @@ body {
     align-items: center;
     padding-top: 5vh;
  }
-
+ mobile 
 .header-desktop>h1 {
     font-size: 6vh;
 }
-
 
 .header-mobile {
     font-family: 'custom', sans-serif;
     height: 7vh;    
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-
+    align-items: center;    
  }
 
 .header-mobile>h1 {
-    font-size: 2vh;
     padding-top: 0.5vh;
-    padding-left: 0.5vh;
+    padding-left : 0.5vh;
+    font-size: 2vh;
+
 }
  nav {
     display : flex;
@@ -83,8 +82,11 @@ body {
  .nav-mobile {
     font-family: 'custom', sans-serif;
     width: 60vw;
-    height: 6vh;
+
+    height: 7vh;
  }
+
+
  .nav-button-desktop {
     display : block;
     text-align : center;
@@ -112,6 +114,39 @@ body {
     border-radius: 5px;
     transition: background-color 1000ms;
     text-decoration: none;
+ }
+
+
+ .nav-button-mobile {
+    display : block;
+    text-align : center;
+    height: 50%;
+    width : 25%;
+    font-size: 1.5vh;
+    padding-top: 1vh;
+    background-color: var(--head-back);
+    color: var(--main-back);
+    border: var(--main-back) solid 1px;
+    border-radius: 5px;
+    
+    text-decoration: none;
+ }
+
+.col-design {
+
+   background-color: white;
+   box-shadow: black 5px 5px 10px 0;
+}
+ .rouge {
+ background-color: red;
+ }
+
+ .vert {
+background-color: greenyellow;
+ }
+
+ .nav-custom {
+   background-color: rgb(157, 44, 74);
  }
 
 
