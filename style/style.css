@@ -57,14 +57,14 @@ body {
     height: 7vh;    
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    
+    align-items: center;    
  }
 
 .header-mobile>h1 {
     padding-top: 0.5vh;
     padding-left : 0.5vh;
     font-size: 2vh;
+
 }
  nav {
     display : flex;
@@ -82,8 +82,10 @@ body {
  .nav-mobile {
     font-family: 'custom', sans-serif;
     width: 60vw;
+
     height: 7vh;
  }
+
 
  .nav-button-desktop {
     display : block;
@@ -99,9 +101,21 @@ body {
     text-decoration: none;
  }
 
- .nav-button-desktop:hover {
-    background-color: var(--main-font);
+
+ .nav-button-mobile {
+    display : block;
+    text-align : center;
+    height: 70%;
+    width : 30%;
+    font-size: 1.7vh;
+    padding-top: 1vh;
+    background-color: var(--main-back);
+    color: var(--head-back);
+    border-radius: 5px;
+    transition: background-color 1000ms;
+    text-decoration: none;
  }
+
 
  .nav-button-mobile {
     display : block;
@@ -134,6 +148,7 @@ background-color: greenyellow;
  .nav-custom {
    background-color: rgb(157, 44, 74);
  }
+
 
 
 

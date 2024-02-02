@@ -18,7 +18,8 @@ function screenAdapt() {
             element.classList.add('nav-button-desktop');
         });
 
-    }else {
+    } else {
+
         //on est sur un mobile
         header.classList.add('header-mobile');
         header.classList.remove('header-desktop');
@@ -28,10 +29,13 @@ function screenAdapt() {
         buttons.forEach(element => {
             element.classList.add('nav-button-mobile');
             element.classList.remove('nav-button-desktop');
-        })
+
+        });
+
     }
 }
 
-screenAdapt();
+screenAdapt()
 
-window.addEventListener('resize', screenAdapt);
+window.addEventListener('resize',screenAdapt);
+
